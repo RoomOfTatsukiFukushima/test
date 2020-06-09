@@ -44,3 +44,5 @@ from sklearn.neighbors import KNeighborsClassifier
 knn_clf=KNeighborsClassifier()
 knn_clf.fit(X_train,y_train)
 knn_clf.predict(X_test[1:20])
+
+# end
